@@ -1,0 +1,4 @@
+####
+train_data = utils.image_dataset_from_directory(
+    your dir - data in kaggle https://www.kaggle.com/datasets/joosthazelzet/lego-brick-images?resource=download),
+#####
