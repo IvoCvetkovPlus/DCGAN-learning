@@ -2,3 +2,20 @@
 train_data = utils.image_dataset_from_directory(
     your dir - data in kaggle https://www.kaggle.com/datasets/joosthazelzet/lego-brick-images?resource=download),
 #####
+%load_ext autoreload
+%autoreload 2
+import numpy as np
+import matplotlib.pyplot as plt
+
+import tensorflow as tf
+from tensorflow.keras import (
+    layers,
+    models,
+    callbacks,
+    losses,
+    utils,
+    metrics,
+    optimizers,
+)
+
+from notebooks.utils import display, sample_batch
